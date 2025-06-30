@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Orens_Lab_Logo_20x20mm")(type "KiCad")(uri "${KIPRJMOD}/Orens_Lab_Logo_20x20mm.kicad_sym")(options "")(descr ""))
+)
