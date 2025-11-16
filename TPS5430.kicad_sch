@@ -2172,104 +2172,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_14"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_14_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_14_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GND_15"
 			(power)
 			(pin_names
@@ -4024,89 +3926,6 @@
 				)
 			)
 			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_1_0_1"
 				(circle
 					(center 0 0)
 					(radius 1.27)
@@ -7138,12 +6957,6 @@
 		(uuid "8afefa03-006b-4e40-b19e-6596c7cc472e")
 	)
 	(junction
-		(at 160.02 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fdf9be1-818f-4e9c-8eae-1797de7f648a")
-	)
-	(junction
 		(at 83.82 130.81)
 		(diameter 0.9144)
 		(color 0 0 0 0)
@@ -7272,16 +7085,6 @@
 			(type solid)
 		)
 		(uuid "0de24fe1-94b9-4644-85e0-1f352c1db534")
-	)
-	(wire
-		(pts
-			(xy 142.24 118.11) (xy 160.02 118.11)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "0f34f1e5-06e8-471a-bc67-a12847a0591a")
 	)
 	(wire
 		(pts
@@ -7925,16 +7728,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 129.54) (xy 160.02 133.35)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "7aea8baf-2f71-4bd4-b1c2-2306565e85b0")
-	)
-	(wire
-		(pts
 			(xy 172.72 62.23) (xy 172.72 64.77)
 		)
 		(stroke
@@ -7985,16 +7778,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 118.11) (xy 160.02 121.92)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "8bd61417-34e3-424d-a5d3-5a4ef6f1fde8")
-	)
-	(wire
-		(pts
 			(xy 142.24 41.91) (xy 142.24 44.45)
 		)
 		(stroke
@@ -8025,7 +7808,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 118.11) (xy 165.1 118.11)
+			(xy 142.24 118.11) (xy 165.1 118.11)
 		)
 		(stroke
 			(width 0)
@@ -10463,70 +10246,6 @@
 			(project ""
 				(path "/c0e520e3-a475-445c-acca-7b616a001972"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "MountingHole_1")
-		(lib_id "Mechanical:MountingHole")
-		(at 153.67 177.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "442ac2c8-66f7-4362-bcc9-a8d28e2be78a")
-		(property "Reference" "H2"
-			(at 158.75 176.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 158.75 179.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
-			(at 153.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project ""
-				(path "/c0e520e3-a475-445c-acca-7b616a001972"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13139,10 +12858,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0046a74-726f-4ffe-9b5e-f0aa54154eb4")
 		(property "Reference" "C9"
-			(at 146.05 124.4599 0)
+			(at 146.05 123.5709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13150,8 +12868,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u{slash}6.3V"
-			(at 146.05 126.9999 0)
+		(property "Value" "100u/35v"
+			(at 143.256 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13159,7 +12877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X"
 			(at 143.2052 129.54 0)
 			(effects
 				(font
@@ -13306,72 +13024,6 @@
 			(project ""
 				(path "/c0e520e3-a475-445c-acca-7b616a001972"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_14")
-		(lib_id "power:GND")
-		(at 160.02 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3cef93f-e6fe-4a4c-89be-7417a27018af")
-		(property "Reference" "#PWR0112"
-			(at 160.02 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6475ce6b-72c8-40d6-9e84-049ef3d78573")
-		)
-		(instances
-			(project ""
-				(path "/c0e520e3-a475-445c-acca-7b616a001972"
-					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -13690,7 +13342,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u/6.3V"
+		(property "Value" "10n/50V"
 			(at 129.54 126.9999 0)
 			(effects
 				(font
@@ -14278,120 +13930,6 @@
 			(project ""
 				(path "/c0e520e3-a475-445c-acca-7b616a001972"
 					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 160.02 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1592f85-fe3b-4820-bb0c-9a46a4979ebd")
-		(property "Reference" "C10"
-			(at 163.83 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u{slash}6.3V"
-			(at 163.83 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
-			(at 160.9852 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/AVX-TAJB107K006RNJ_C16133.pdf"
-			(at 160.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C16133"
-			(at 160.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Tantalum Capacitors 100uF 6.3V CASE-B_3528 RoHS"
-			(at 160.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TAJB107K006RNJ"
-			(at 160.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AVX"
-			(at 160.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "CASE-B_3528"
-			(at 160.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8135352-0390-405c-b1ed-a8906da2c2ed")
-		)
-		(pin "2"
-			(uuid "d27c63c2-443e-4ac6-90ce-001edc309b4b")
-		)
-		(instances
-			(project ""
-				(path "/c0e520e3-a475-445c-acca-7b616a001972"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -15071,7 +14609,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10n/50v"
 			(at 104.14 107.95 90)
 			(effects
 				(font
